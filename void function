@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+void g(void)
+{
+    cout<<"good moring !! how can i help you";
+}
+int main() {
+    g();
+    return 0;
+}
