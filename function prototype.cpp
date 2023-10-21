@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int sum(int , int );
-void g();
+void g();  //function prototype
 int main() {
     int x, y;
     cout<<"enter two numbers to add"<<endl;
