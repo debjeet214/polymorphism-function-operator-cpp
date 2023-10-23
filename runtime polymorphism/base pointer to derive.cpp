@@ -25,5 +25,7 @@ int main(){
     b_pointer = & d_obj;       // base class pointer to derive class object
     b_pointer -> var_b = 20;   // accessing the var-b by base pointer & assign a value to that address
     (*b_pointer).display();    // accessing public class method using the pointer of that class
-    b_pointer->display();
+//          ^
+//          |   same just different way
+    // b_pointer->display();
 }
