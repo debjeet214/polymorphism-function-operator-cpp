@@ -28,5 +28,5 @@ int main(){
 //          ^
 //          |   same just different way
 //  b_pointer->display();
-//  b-pointer -> var_d =25;   --> this line will give error as the base class pointer can't acess thed erived class memebers even the pointer is pointing to derive class object
+//  b-pointer -> var_d =25;   --> this line will give error as the base class pointer can't acess the derived class memebers even the pointer is pointing to derive class object
 }
