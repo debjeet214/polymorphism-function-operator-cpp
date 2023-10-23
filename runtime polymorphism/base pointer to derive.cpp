@@ -9,7 +9,7 @@ class base{
         }
 };
 
-class derive{
+class derive: public base{
     public:
         int var_d;
         void display(){
@@ -27,5 +27,6 @@ int main(){
     (*b_pointer).display();    // accessing public class method using the pointer of that class
 //          ^
 //          |   same just different way
-    // b_pointer->display();
+//  b_pointer->display();
+//  b-pointer -> var_d =25;   --> this line will give error as the base class pointer can't acess thed erived class memebers even the pointer is pointing to derive class object
 }
