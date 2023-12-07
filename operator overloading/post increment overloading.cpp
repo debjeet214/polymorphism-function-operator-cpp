@@ -3,25 +3,20 @@ using namespace std;
 class Integer {
 private:
 	int p;
-
 public:
-	Integer(int i = 0)
-	{
+	Integer(int i = 0){
 		p = i;
 	}
-	Integer operator++(int)
-	{
+	Integer operator++(int){
 		Integer temp = *this;
 		++p;
 		return temp;
 	}
-	void display()
-	{
+	void display(){
 		cout << "i = " << p << endl;
 	}
 };
-int main()
-{
+int main(){
 	Integer i1(3);
 	cout << "Before increment: ";
 	i1.display();
